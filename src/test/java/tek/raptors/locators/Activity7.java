@@ -22,7 +22,8 @@ public class Activity7 {
 
         By errorLocator = By.xpath("//div[contains(@class,'banner-error')]");
         String errorText = driver.findElement(errorLocator).getText();
-        System.out.println(errorText);
+       String replaced = errorText.substring(6);
+        System.out.println(replaced);
         driver.quit();
     }
 

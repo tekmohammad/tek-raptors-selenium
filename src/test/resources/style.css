@@ -1,0 +1,24 @@
+body > div > label > input  {
+    background-color : black
+}
+
+div input {
+    margin-top: 20px
+}
+
+button[role='button'] {
+    background-color : blue;
+}
+
+#submitButton {
+    background-color: blue;
+}
+
+.buttons{
+    padding: 20px;
+}
+
+.buttonSection {
+    min-height: 80px;
+    padding: 20px;
+}
