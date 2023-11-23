@@ -37,8 +37,6 @@ public class Activity3 {
         driver.findElement(By.name("dateOfBirth")).sendKeys("02121998");
 
         driver.findElement(By.xpath("//button[text()='Create Account']")).click();
-        Thread.sleep(3000);
-
         driver.quit();
     }
 }
