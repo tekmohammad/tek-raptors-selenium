@@ -20,6 +20,7 @@ public class HandleWindowActivity {
         driver.get("https://retail.tekschool-students.com");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
         String mainTab = driver.getWindowHandle();
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
