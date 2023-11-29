@@ -15,7 +15,7 @@ public class HandlingFrame {
 
         String mainText = driver.findElement(By.id("title")).getText();
         System.out.println(mainText);
-        
+
         driver.switchTo().frame(driver.findElement(By.xpath("//iframe")));
         String insideFrame = driver.findElement(By.xpath("html/body/h1")).getText();
         System.out.println(insideFrame);
